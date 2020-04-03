@@ -1,0 +1,157 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "cooking store",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "get started",
+                        "help me get started",
+                        "help me"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "enough for today",
+                        "enough for now",
+                        "bye bye"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StartCookingIntent",
+                    "slots": [],
+                    "samples": [
+                        "start cooking",
+                        "let's start cooking",
+                        "let's start",
+                        "lets start cooking",
+                        "lets start"
+                    ]
+                },
+                {
+                    "name": "SelectRecipieIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "number {number}",
+                        "start cooking {number}",
+                        "its {number}",
+                        "it's {number}",
+                        "{number}"
+                    ]
+                },
+                {
+                    "name": "IngredientIntent",
+                    "slots": [],
+                    "samples": [
+                        "start ingredients",
+                        "tell ingredients",
+                        "get ingredients",
+                        "ingredients",
+                        "say ingredient",
+                        "Ingredient"
+                    ]
+                },
+                {
+                    "name": "TutorialIntent",
+                    "slots": [],
+                    "samples": [
+                        "teach me",
+                        "get tutorial",
+                        "tutorial",
+                        "start tutorial",
+                        "tell tutorial",
+                        "say tutorial"
+                    ]
+                },
+                {
+                    "name": "VegIntent",
+                    "slots": [],
+                    "samples": [
+                        "veg recipes",
+                        "veg recepie",
+                        "veg recepies",
+                        "veg recipie",
+                        "veg recipies",
+                        "veg"
+                    ]
+                },
+                {
+                    "name": "NonVegIntent",
+                    "slots": [],
+                    "samples": [
+                        "non veg recipes",
+                        "nonveg recepie",
+                        "non veg recepie",
+                        "nonveg recepies",
+                        "non veg recepies",
+                        "non veg recipies",
+                        "nonveg recipies",
+                        "nonveg",
+                        "non veg"
+                    ]
+                },
+                {
+                    "name": "OtherIntent",
+                    "slots": [],
+                    "samples": [
+                        "other recipes",
+                        "other recepie",
+                        "other recipie",
+                        "other recipies",
+                        "other recepies",
+                        "others",
+                        "other"
+                    ]
+                },
+                {
+                    "name": "AllIntent",
+                    "slots": [],
+                    "samples": [
+                        "all recipes",
+                        "all recepie",
+                        "all recipie",
+                        "all recipies",
+                        "all ",
+                        "all recepies"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "repeat once",
+                        "repeat it"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "recipies",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "vegetable poha"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

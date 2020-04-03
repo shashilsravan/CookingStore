@@ -1,0 +1,109 @@
+StartCookingIntent
+
+
+start cooking
+let's start cooking
+let's start
+lets start cooking
+lets start
+
+_________________________
+
+SelectRecipieIntent
+
+
+number {number}
+start cooking {number}
+its {number}
+it's {number}
+{number}
+
+{number} means AMAZON.Number
+
+__________________________
+
+IngredientIntent
+
+
+start ingredients
+tell ingredients
+get ingredients
+ingredients
+say ingredient
+Ingredient
+
+__________________________
+
+TutorialIntent
+
+
+teach me
+get tutorial
+tutorial
+start tutorial
+tell tutorial
+say tutorial
+
+__________________________
+
+VegIntent
+
+
+veg recipe
+veg recipes
+
+__________________________
+
+NonVegIntent
+
+
+non veg recipe
+nonveg recipes
+
+__________________________
+
+OtherIntent
+
+
+other recipe
+other recipes
+
+__________________________
+
+AllIntent
+
+
+all recipes
+all recipe
+
+__________________________
+
+AMAZON.CancelIntent
+
+
+cancel
+
+__________________________
+
+AMAZON.HelpIntent
+
+
+get started
+help me get started
+help me
+
+__________________________
+
+AMAZON.StopIntent
+
+
+bye bye
+enough for now
+
+__________________________
+
+AMAZON.RepeatIntent
+
+
+repeat once
+repeat it
